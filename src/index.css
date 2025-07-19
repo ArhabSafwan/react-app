@@ -9,3 +9,23 @@
 .student p{
     margin: 0;
 }
+
+.welcome-message{
+    font-size: 2em;
+    background-color: aquamarine;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.prompt-login{
+    font-size: 2em;
+    background-color: rgb(255, 168, 127);
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
