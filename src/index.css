@@ -1,31 +1,54 @@
-.student{
+.to-do-list{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    padding: 10px;
-    border: 1px solid;
-    
-}
-
-.student p{
-    margin: 0;
-}
-
-.welcome-message{
-    font-size: 2em;
-    background-color: aquamarine;
-    border: 1px solid;
-    border-radius: 5px;
     text-align: center;
-    padding: 20px;
-    margin: 0;
+    margin-top: 100px;
 }
-
-.prompt-login{
-    font-size: 2em;
-    background-color: rgb(255, 168, 127);
-    border: 1px solid;
+h1{
+    font-size: 4rem;
+}
+button{
+    padding: 10px 10px;
+    color: wheat;
+    border: none;
     border-radius: 5px;
-    text-align: center;
-    padding: 20px;
-    margin: 0;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.add-button{
+    background-color: greenyellow;
+}
+.delete-button{
+    background-color: rgb(255, 47, 47);
+}
+.move-button-up{
+    background-color: rgb(47, 154, 255);
+}
+.move-button-down{
+    background-color: rgb(47, 154, 255);
+}
+input[type="text"]{
+font-size: 1.6rem;
+padding: 10px;
+border: 2px solid black;
+border-radius: 5px;
+}
+ol{
+    padding: 0;
+    margin-top: 10px;
+}
+li{
+    font-size: 2rem;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex: 1;
+}
+.delete-button, .move-button-down, .move-button-up{
+    padding: 8px 10px;
+    margin-left: 10px;
 }
